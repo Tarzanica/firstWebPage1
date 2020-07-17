@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt zaliczeniowy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="photo__container">
+            <a href="" title="Photo by Jimmy Moon on Unsplash"> <img class="photo1"
+                    src="https://images.unsplash.com/photo-1506549209434-33eff06262cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1256&q=80"
+                    alt=""></a>
+
+            <nav class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox"  id="toggle">
+                <div class="menu__nav">
+                    <a href="index.html">O NAS</a>
+                    <a href="aktualnosci.html">AKTUALNOŚCI</a>
+                    <a href="galeria.html">GALERIA</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                </div>
+            </nav>
+            <a href="index.html">
+                <h1 class="title">POLSKA DLA CIEBIE</h1>
+            </a>
+            <a href="#gallery" class="arrow__btn"></a>
+        </div>
+    </header>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+    <section id="gallery">
+        <div class="container ">
+            <div class="header__title">
+                <h2 class="gallery__header">GALERIA</h2>
+            </div>
+            <div class="gallery">
+                <a href="#img1">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1519197924294-4ba991a11128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Kamil Gliwiński.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img2">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1535232843222-a40c29436fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1059&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa freestocks.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img3">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1522689764216-4e6966e5e444?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Lucas Albuquerque.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img4">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1559901416-45802dbc9a1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa kyryll ushakov.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img5">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1523565304550-2b34a3031464?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Dawid Zawiła.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img6">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1464520460796-5d98a3e5b296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Alexey Topolyanskiy.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img7">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1566598965272-12e9132811ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Emilia Niedźwiedzka.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img8">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1566155035545-403bb5a932a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Emilia Niedźwiedzka.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img9">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1562766077-4cd48771b57c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Nomadic Julien.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img10">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1531724781056-af5d4f9aa319?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Marcin Szmigiel.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img11">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1510763736856-dc6b067975aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Pawel Durka.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img12">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1573425153374-392bb1f398da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Sebastian Kurpiel.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img13">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1573424659379-f5d699f4845a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1008&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Sebastian Kurpiel.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img14">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1571857513938-3276b97ffdec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Radoslaw Prekurat.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#img15">
+                    <div class="gallery__container">
+                        <img src="https://images.unsplash.com/photo-1573424658136-757cb66caa46?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                        <div class="overlay">
+                            <div class="text">
+                                Fotografia autorstwa Sebastian Kurpiel.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="lightbox__container">
+
+                    <!-- lightbox active -->
+                    <a id="img1" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1519197924294-4ba991a11128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img2" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1535232843222-a40c29436fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1059&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img3" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1522689764216-4e6966e5e444?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img4" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1559901416-45802dbc9a1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img5" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1523565304550-2b34a3031464?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img6" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1464520460796-5d98a3e5b296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img7" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1566598965272-12e9132811ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img8" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1566155035545-403bb5a932a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img9" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1562766077-4cd48771b57c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img10" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1531724781056-af5d4f9aa319?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img11" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1510763736856-dc6b067975aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img12" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1573425153374-392bb1f398da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img13" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1573424659379-f5d699f4845a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1008&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img14" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1571857513938-3276b97ffdec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                    <a id="img15" class="lightbox" href="#_">
+                        <div class="gallery__container-lightbox">
+                            <img src="https://images.unsplash.com/photo-1573424658136-757cb66caa46?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                alt="">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="h-300">
+                    <div class="social__nav">
+                        <div class="social">
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <span class="w-100">Zobacz więcej</span>
+                        </div>
+
+                    </div>
+
+                    <div class="footer__item col-33">
+                        <h3 class="footer__titles">Zobacz także:</h3>
+                        <ul class="list__underline">
+                            <li><a href="">Lorem ipsum dolor sit.</a></li>
+                            <li><a href="">Repellendus iure reprehenderit magnam!</a></li>
+                            <li><a href="">Nisi ad explicabo eum.</a></li>
+                            <li><a href="">Quibusdam quas explicabo magnam.</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item col-33">
+                        <h3 class="footer__titles">Szybkie linki:</h3>
+                        <ul class="list__underline">
+                            <li><a href="index.html">O NAS</a></li>
+                            <li><a href="aktualnosci.html">AKTUALNOŚCI</a></li>
+                            <li><a href="galeria.html">GALERIA</a></li>
+                            <li><a href="kontakt.html">KONTAKT</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item col-33">
+                        <h3 class="footer__titles">Najnowsze artykuły:</h3>
+                        <p class="footer_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo ab
+                            molestiae
+                            ullam est
+                            pariatur dolores quasi ipsum officiis voluptatibus atque dolor eum, harum incidunt quod
+                            fugiat aliquam tempore dolorem amet reprehenderit odio aperiam assumenda consectetur
+                            deleniti quos! Repudiandae ex voluptatem fugiat sapiente consectetur dolores amet.</p>
+                        <br>
+                        <a class="btn__more" href="">Czytaj dalej..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>Author: Patrycja Bobek.</p>
+                <p>&copy; Copyright 2020 </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
